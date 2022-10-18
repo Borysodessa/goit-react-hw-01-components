@@ -1,5 +1,5 @@
 import {Profile} from "./Profile/Profile";
-import user from "user.json"
+import user from "../data/user"
 
 export const App = () => {
   return (
