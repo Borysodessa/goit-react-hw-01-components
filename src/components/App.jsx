@@ -1,4 +1,4 @@
-import {Profile} from "./Profile/Profile";
+import {Profile} from "./social-fragment/Profile/Profile";
 import user from "../data/user"
 
 export const App = () => {
