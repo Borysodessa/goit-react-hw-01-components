@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 import {Avatar, Username, Tag, Location,  Wrap} from "./Description.styled";
 
 export const Description = ({username, avatar, tag, location}) => {
@@ -10,3 +12,10 @@ export const Description = ({username, avatar, tag, location}) => {
     </Wrap>
   );
 };
+
+Description.propTypes = {
+avatar: PropTypes.string.isRequired,
+  username: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired
+}
