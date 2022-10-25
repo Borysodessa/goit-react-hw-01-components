@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 import {Avatar, Username, Tag, Location,  Wrap} from "./Description.styled";
 

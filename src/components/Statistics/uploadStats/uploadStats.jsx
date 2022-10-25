@@ -1,13 +1,19 @@
 import {Unit, Value} from "./uploadStats.styled";
+import PropTypes from "prop-types";
 
-export const UploadStats = ({id, label, percentage}) => {
+export const UploadStats = ({ label, percentage}) => {
 
   return(
     <>
-      <span>{id}</span>
       <Unit>{label}</Unit>
       <Value>{percentage}</Value>
     </>
   )
 }
+
+
+UploadStats.propTypes={
+   label: PropTypes.string.isRequired,
+  percentage: PropTypes.number.isRequired
+ }
 

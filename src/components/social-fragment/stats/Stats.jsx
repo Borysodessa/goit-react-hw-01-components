@@ -24,7 +24,7 @@ export const Stats = ({followers, views, likes,}) => {
 };
 
 Description.propTypes = {
-  Followers: PropTypes.number,
+  Followers: PropTypes.string,
   views: PropTypes.number,
   likes: PropTypes.number
 }
